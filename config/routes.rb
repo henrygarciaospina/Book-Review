@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   	resources :reviews
   end
   root 'books#index'
+  resources :categories
 end
